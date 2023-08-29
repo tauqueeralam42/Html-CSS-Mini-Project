@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #c5dced;
+    background-image: linear-gradient(62deg, #c5dced 62%, #f0e8f3 100%);
+;
+box-sizing: border-box;
+}
+.navBar{
+    width: 100%;
+    min-height: 80px;
+    background-color: #5794a7;
+background-image: linear-gradient(270deg, #5794a7 0%, #6f9797 58%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.navLogo p{
+    font-size: 2.5rem;
+    font-weight:500;
+    margin: 10px;
+    color: aliceblue;
+}
+.navLink{
+    font-size: 1.5rem;
+    margin: 10px;
+    
+}
+.navBar a{
+    margin: 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+.contentBox{
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 1px 1px 30px black
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightBox{
+    position: relative;
+    transition: all 0.6s linear 0s;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.383);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0e8f3;
+    font-size: 1.6rem;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.rightBox img{
+    height: 300px;
+    border-radius: 20px;
+   
+}
+.rightBox:hover{
+    transform: scale(1.1);
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftBox h2{
+    font-size: 2rem;
+}
+.ingBox{
+    font-size: 1.2rem;
+}
+.recpBox{
+    font-size: 1.2rem;
+}
